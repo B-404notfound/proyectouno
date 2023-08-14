@@ -28,5 +28,8 @@ public class Main {
         System.out.println(persona1.getNombre());
         System.out.println(persona2.getNombre());
         System.out.println(persona2.getEdad());
+
+        Casas casa1 = new Casas("4","3",4);
+        System.out.println("La casa tiene : "+casa1.getHabitaciones()+"Habitaciones");
     }
 }
