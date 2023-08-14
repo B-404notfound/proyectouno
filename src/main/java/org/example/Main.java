@@ -26,5 +26,7 @@ public class Main {
 
         System.out.println(auto1.getMarca());
         System.out.println(persona1.getNombre());
+        System.out.println(persona2.getNombre());
+        System.out.println(persona2.getEdad());
     }
 }
